@@ -1,0 +1,148 @@
+*{
+    font-family: sans-serif;
+    list-style: none;
+    padding: 0;
+}
+
+body{
+    background: #34495e;
+}
+
+.skills{
+    width: 50%;
+    margin: 50px auto;
+    color: white;
+}
+
+.skills li{
+    margin: 30px 0;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{
+    height: 2px;
+    float: left;
+    background: #2187e7;
+}
+
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+
+.css{
+    width: 85%;
+    animation: css 3s;
+}
+
+.javascript{
+    width: 70%;
+    animation: javascript 3s;
+}
+
+.jquery{
+    width: 60%;
+    animation: jquery 3s;
+}
+
+.python{
+    width: 85%;
+    animation: python 3s;
+}
+
+.c{
+    width: 70%;
+    animation: c 3s;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes jquery{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+
+@keyframes c{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+.arr{
+      
+      font-size:  300%;
+      text-shadow: 0 0 3px #FF0000;
+        text-align: center;
+    text-decoration: none;
+    color:burlywood;
+    
+}
+
+@media screen and (max-width:767px) {
+  .skills {
+    width:70%;/* The width is 100%, when the viewport is 800px or smalpaaler */
+    margin: 60px auto;
+  }
+    .skills li{
+    margin: 20px 0;
+    
+}
+    
+}
+
+

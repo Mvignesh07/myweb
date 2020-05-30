@@ -1,0 +1,96 @@
+body{
+    
+    font-family:sans-serif;
+    background: #e8eaee;
+    
+}
+
+
+
+
+
+
+
+h2{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 0 8px 12px #262626;
+    font-size: 50px;
+}
+
+.single-service{
+    background: #34495e;
+    padding: 60px;
+    height: 330px;
+    transition: all 0.9s ease 0s;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+.single-service i{
+    color: tomato;
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+.single-service h3{
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.single-service p{
+    display: none;
+    transition: all 0.9s ease 0s;
+    color: #fff;
+    font-weight: 700;
+    
+}
+
+.single-service:hover p{
+    display: block;
+}
+
+.single-service:hover i{
+    font-size: 120px;
+    transition: 0.9s;
+    color: #fff;
+}
+
+.single-service:hover{
+    background: #a69976;
+}
+
+.arr{
+      
+      font-size:  300%;
+      text-shadow: 0 0 3px #FF0000;
+        text-align: center;
+    text-decoration: none;
+    color:burlywood;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    
+}
+
+@media only screen and (max-width: 767px){
+    h2{
+        font-size: 25px;
+        
+    }
+    .single-service{
+        margin-bottom: 20px;
+        padding: 40px;
+        margin-right:30px;
+        margin-left: 30px;
+    }
+    .single-service:hover i{
+        font-size: 100px;
+    }
+}
