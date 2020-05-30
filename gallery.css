@@ -69,11 +69,12 @@ body,html{
 
 .arr{
       
-      font-size:  300%;
+      font-size:  250%;
       text-shadow: 0 0 3px #FF0000;
         text-align: center;
     text-decoration: none;
     color:burlywood;
+    padding-top:5%;
     
     
 }
