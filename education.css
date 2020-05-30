@@ -94,8 +94,8 @@ h2{
     .single-service{
         margin-bottom: 10%;
         padding: 40px;
-        margin-right:3%;
-        margin-left: 3%;
+        margin-right:1%;
+        margin-left: 1%;
             height: 330px;
     transition: all 0.9s ease 0s;
     }
@@ -105,7 +105,7 @@ h2{
     
     arr{
       
-      font-size:  400%;
+      font-size:  500%;
       text-shadow: 0 0 3px #FF0000;
         text-align: center;
     text-decoration: none;
