@@ -54,13 +54,13 @@ h1{
     animation: javascript 3s;
 }
 
-.jquery{
-    width: 60%;
+.java{
+    width: 80%;
     animation: jquery 3s;
 }
 
 .python{
-    width: 85%;
+    width: 75%;
     animation: python 3s;
 }
 
@@ -96,12 +96,12 @@ h1{
     }
 }
 
-@keyframes jquery{
+@keyframes java{
     0%{
         width: 0%;
     }
     100%{
-        width: 60%;
+        width: 80%;
     }
 }
 
@@ -110,7 +110,7 @@ h1{
         width: 0%;
     }
     100%{
-        width: 85%;
+        width: 75%;
     }
 }
 
